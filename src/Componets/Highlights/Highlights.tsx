@@ -9,10 +9,10 @@ const Highlights: React.FC = () => {
   const HandleCVDownload = () =>{
     try {
       console.log("hellp")
-        const cvUrl = "/mohammedNoorulAmeenCV.pdf";
+        const cvUrl = "/Mashahir.pdf";
         const link = document.createElement("a");
         link.href = cvUrl;
-        link.download = "mohammedNoorulAmeenCV.pdf";
+        link.download = "Mashahir.pdf";
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);

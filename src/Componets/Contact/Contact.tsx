@@ -16,13 +16,12 @@ const Contact: React.FC = () => {
         {/* Links */}
         <div className="flex flex-wrap gap-4 mt-8 pl-5 md:pl-10 lg:pl-55">
           {[
-            { name: "Instagram", url: "https://www.instagram.com/noorulameen___/" },
-            { name: "GitHub", url: "https://github.com/mohammednoorulameen" },
-            { name: "LinkedIn", url: "https://www.linkedin.com/in/mohammed-noorul-ameen-n5445n/" },
+            { name: "LinkedIn", url: "https://www.linkedin.com/in/mashahir-p" },
+            { name: "GitHub", url: "https://github.com/mashahir0" },
             // { name: "Email",  url: "mailto:noorulameen8606@gmail.com?subject=Hello&body=I would like to connect with you"},
             {
   name: "Email",
-  url: "mailto:noorulameen8606@gmail.com?subject=Hello&body=I%20would%20like%20to%20connect%20with%20you",
+  url: "mailto:mashahirp@gmail.com?subject=Hello&body=I%20would%20like%20to%20connect%20with%20you",
 }
 
           ].map(({ name, url }) => (

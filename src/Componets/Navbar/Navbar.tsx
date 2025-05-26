@@ -34,10 +34,10 @@ const Navbar: React.FC = () => {
       {/* Center content section */}
       <div className="mt-2 text-center">
         <h1 className="text-3xl md:text-4xl font-bold font-serif">
-          Mohammed Noorul Ameen
+          Mohammed Mashahir P
         </h1>
         <p className="text-sm md:text-lg font-serif mt-3 md:mt-7">
-          Software Engineer, Technology & Business Enthusiast
+          Software Developer
         </p>
       </div>
     </div>

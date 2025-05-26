@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../../Navbar/Navbar";
-import Ebook from '../../../assets/E-Book.png';
-import toyotaclone from '../../../assets/toyota clone.jpeg';
+import mocca from '../../../assets/moccca.png'
+import quotly from '../../../assets/quotly.png';
 import Allensonly_clone from '../../../assets/Allensonly_clone.png'
 import { useTheme } from '../../../Context/ThemeContext';
 
@@ -11,28 +11,28 @@ const Projects: React.FC = () => {
   const projects = [
     {
       id: 1,
-      title: "E-book E-Commerce Website",
-      description: "A full-stack MERN application for buying and selling products.",
-      liveLink: "https://ebooks.noorulameen.tech/",
-      sourceCode: "https://github.com/mohammednoorulameen/E-book_e_commerce",
-      smallImage: `${Ebook}`, 
+      title: "MOCCA , E-Commerce Website",
+      description: "Mocca is a full-stack eCommerce web application built with the MERN stack. It includes features like product, order, coupon, and offer management, along with a wallet system and Razorpay integration for secure online payments.",
+      liveLink: "https://www.moccafashion.shop/",
+      sourceCode: "https://github.com/mashahir0/Mocca-E-Commerce",
+      smallImage: `${mocca}`, 
     },
     {
       id: 2,
-      title: "UI design a Website",
-      description: "UI-UX design ",
-      liveLink: "https://mohammednoorulameen.github.io/tayota-responsive/",
-      sourceCode: "https://github.com/mohammednoorulameen/tayota",
-      smallImage: `${toyotaclone}`, // Add small image URL
+      title: "Quotly , social media",
+      description: "Quotly is a social media platform for sharing quotes, featuring post sharing, likes, dislikes, saves, real-time chat using Socket.io, and a user ranklist system.",
+      liveLink: "https://www.quotly.site",
+      sourceCode: "https://github.com/mashahir0/Quotly",
+      smallImage: `${quotly}`, // Add small image URL
     },
-    {
-      id: 3,
-      title: "UI design a Website",
-      description: "UI-UX design ",
-      liveLink: "https://mohammednoorulameen.github.io/Allensolly/",
-      sourceCode: "https://github.com/mohammednoorulameen/Allensolly",
-      smallImage: `${Allensonly_clone}`, // Add small image URL
-    },
+    // {
+    //   id: 3,
+    //   title: "UI design a Website",
+    //   description: "UI-UX design ",
+    //   liveLink: "https://mohammednoorulameen.github.io/Allensolly/",
+    //   sourceCode: "https://github.com/mohammednoorulameen/Allensolly",
+    //   smallImage: `${Allensonly_clone}`, // Add small image URL
+    // },
   ];
 
   return (

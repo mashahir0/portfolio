@@ -12,52 +12,56 @@ const About: React.FC = () => {
 
         {/* Content Section */}
         
-        <div className="mt-5 w-full text-center p-5 md:p-10 lg:ml-0">
-  <p className="font-serif text-sm text-justify max-w-7xl mx-auto leading-relaxed">
-    I'm Mohammed Noorul Ameen, a MERN stack developer dedicated to
-    building innovative, scalable, and efficient web applications. With
-    a deep understanding of modern web technologies, I specialize in
-    leveraging frameworks like{" "}
+       <div className="mt-5 w-full text-center p-5 md:p-10 lg:ml-0">
+  <p className="font-serif text-base text-justify max-w-7xl mx-auto leading-relaxed font-serif">
+    I'm  Mashahir, a self-taught full-stack developer passionate about leveraging
+    cutting-edge technologies to solve complex digital challenges. With hands-on experience
+    in frameworks like{" "}
     <span className="font-bold">
-      Express.js, React.js, Node.js, and TypeScript
+      Node.js, React.js, Express.js
+    </span>,{" "}
+    I specialize in building scalable and efficient applications using{" "}
+    <span className="font-bold">TypeScript, JavaScript, Redux, MongoDB, and PostgreSQL</span>.
+    <br />
+    <br />
+    I’m a BCA graduate, and during my college years, I actively worked on various projects that helped shape my journey into full-stack development. I have embraced architectural principles like{" "}
+    <span className="font-bold">
+      Clean Architecture, MVC
+    </span>, and I’m skilled in integrating tools such as{" "}
+    <span className="font-bold">
+       Redis, Docker and AWS
     </span>{" "}
-    to deliver robust, user-centric solutions. My skill set also
-    includes state management tools like Redux and database expertise
-    with{" "}
-    <span className="font-bold">MongoDB and PostgreSQL</span>, enabling
-    me to create seamless, full-stack applications.
+    to enhance system design and performance.
     <br />
     <br />
-    Throughout my journey in software development, I have embraced the
-    principles of MVC architecture, ensuring that my applications are
-    well-structured and maintainable. I have also gained hands-on
-    experience with various tools and services, such as{" "}
-    <span className="font-bold">Razorpay, JWT, Postman, and AWS</span>,
-    to implement secure integrations and optimize application
-    performance.
+    My technical repertoire extends to a wide range of services and APIs including{" "}
+    <span className="font-bold">
+      Razorpay, Cloudinary,  Firebase,
+      Node Mailer, OAuth 2.0, and JWT
+    </span>. I also utilize tools like{" "}
+    <span className="font-bold">Postman</span> for testing and project management.
     <br />
     <br />
-    What sets me apart is my passion for continuous learning and my
-    commitment to delivering clean, maintainable code. I thrive in
-    dynamic, fast-paced environments where I can contribute to projects
-    from initial concept to final deployment.
+    I take pride in writing clean, maintainable, and scalable code, and I thrive in
+    fast-paced environments that require end-to-end ownership—from architecture to
+    deployment—with a focus on{" "}
+    <span className="font-bold">CI/CD pipelines and cloud-native solutions</span>.
     <br />
     <br />
-    Beyond technical skills, I am an advocate for collaboration and
-    innovation. I enjoy working with teams to tackle challenging
-    problems, explore new technologies, and push the boundaries of
-    what's possible. My focus on performance optimization and
-    scalability ensures that my projects are built to succeed in
-    real-world scenarios.
+    Beyond development, I'm an avid learner and active contributor to the developer
+    community through{" "}
+    <span className="font-bold">open-source projects and coding competitions</span>.
+    I'm always eager to connect, collaborate, and build impactful digital experiences.
   </p>
 </div>
+
 
         <hr className="w-full h-0.5 bg-gray-900 mt-6" />
 
         {/* Footer Section */}
         <div className="mt-3 pb-3">
           <h1 className="font-serif text-center text-gray-500">
-            © 2025 Mohammed Noorul Ameen
+            © 2025 Mohammed Mashahir
           </h1>
         </div>
       </div>
