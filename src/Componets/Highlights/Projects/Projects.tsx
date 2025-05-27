@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../../Navbar/Navbar";
 import mocca from '../../../assets/moccca.png'
 import quotly from '../../../assets/quotly.png';
-import Allensonly_clone from '../../../assets/Allensonly_clone.png'
+import todo from '../../../assets/todo.png'
 import { useTheme } from '../../../Context/ThemeContext';
 
 const Projects: React.FC = () => {
@@ -25,14 +25,40 @@ const Projects: React.FC = () => {
       sourceCode: "https://github.com/mashahir0/Quotly",
       smallImage: `${quotly}`, // Add small image URL
     },
-    // {
-    //   id: 3,
-    //   title: "UI design a Website",
-    //   description: "UI-UX design ",
-    //   liveLink: "https://mohammednoorulameen.github.io/Allensolly/",
-    //   sourceCode: "https://github.com/mohammednoorulameen/Allensolly",
-    //   smallImage: `${Allensonly_clone}`, // Add small image URL
-    // },
+  ];
+  const miniProjects = [
+    {
+      id: 1,
+      title: "Todo App",
+      description: "React ",
+      liveLink: "https://mashahir0.github.io/React-Todo/",
+      sourceCode: "https://github.com/mashahir0/React-Todo",
+      smallImage: `${todo}`, // Add small image URL
+    },
+     {
+      id: 2,
+      title: "CLI - Tool",
+      description: "Node js ",
+      // liveLink: "https://mashahir0.github.io/React-Todo/",
+      sourceCode: "https://github.com/mashahir0/netSpeed-log-cli_tool",
+      smallImage: `${todo}`, // Add small image URL
+    },
+     {
+      id: 3,
+      title: "socket io - CRUD",
+      description: "React , socket io",
+      // liveLink: "https://mashahir0.github.io/React-Todo/",
+      sourceCode: "https://github.com/mashahir0/websocket-curd",
+      smallImage: `${todo}`, // Add small image URL
+    },
+     {
+      id: 4,
+      title: "Redis - CRUD",
+      description: "React , Redis",
+      // liveLink: "https://mashahir0.github.io/React-Todo/",
+      sourceCode: "https://github.com/mashahir0/redis-crud",
+      smallImage: `${todo}`, // Add small image URL
+    },
   ];
 
   return (
@@ -41,6 +67,50 @@ const Projects: React.FC = () => {
       <h1 className="text-3xl font-bold text-center mb-8">Projects</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.map((project) => (
+          <div
+            key={project.id}
+            className={`border rounded-lg shadow-lg p-6 ${isDarkMode ? 'bg-black hover:bg-white hover:text-black' : 'bg-white'} hover:shadow-2xl transition duration-300`}
+          >
+            <div className="flex justify-between items-center mb-4">
+              {/* Project Title */}
+              <h2 className="text-xl font-semibold flex-grow">{project.title}</h2>
+              {/* Small Image */}
+              <img
+                src={project.smallImage}
+                alt={`${project.title} Small Image`}
+                className="w-12 h-12 object-cover rounded-full flex-shrink-0"  
+              />
+            </div>
+            <p className="mb-4">{project.description}</p>
+            <div className="flex justify-between">
+              {project.liveLink && (
+                <a
+                  href={project.liveLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-500 underline hover:text-blue-700"
+                >
+                  Live Demo
+                </a>
+              )}
+              {project.sourceCode && (
+                <a
+                  href={project.sourceCode}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-500 underline hover:text-blue-700"
+                >
+                  Source Code
+                </a>
+              )}
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <h1 className="text-3xl font-bold text-center mt-3 mb-8">mini projects</h1>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        {miniProjects.map((project) => (
           <div
             key={project.id}
             className={`border rounded-lg shadow-lg p-6 ${isDarkMode ? 'bg-black hover:bg-white hover:text-black' : 'bg-white'} hover:shadow-2xl transition duration-300`}

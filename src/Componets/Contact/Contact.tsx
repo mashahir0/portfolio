@@ -18,7 +18,6 @@ const Contact: React.FC = () => {
           {[
             { name: "LinkedIn", url: "https://www.linkedin.com/in/mashahir-p" },
             { name: "GitHub", url: "https://github.com/mashahir0" },
-            // { name: "Email",  url: "mailto:noorulameen8606@gmail.com?subject=Hello&body=I would like to connect with you"},
             {
   name: "Email",
   url: "mailto:mashahirp@gmail.com?subject=Hello&body=I%20would%20like%20to%20connect%20with%20you",
