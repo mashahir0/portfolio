@@ -61,7 +61,7 @@ const About: React.FC = () => {
         {/* Footer Section */}
         <div className="mt-3 pb-3">
           <h1 className="font-serif text-center text-gray-500">
-            © 2025 Mohammed Mashahir
+            © 2025 Mohammed Mashahir.
           </h1>
         </div>
       </div>
